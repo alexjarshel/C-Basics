@@ -2,10 +2,13 @@
 
 int main(int argc, char const *argv[])
 {
-    printf("Mensagem 1 \n");
-    printf("Mensagem 2 \n");
-    printf("Mensagem 3 \n");
-    printf("Mensagem 4 \n");
+    printf("Valor inteiro %d \n",10);
+    printf("Valor real %f \n",10.5867234);
+    printf("Valor real com duas casas %.2f \n",10.1232145);
+    printf("text %c \n",'a');
+    printf("text %s \n","Alex");
+
+
 
     return 0;
 }
